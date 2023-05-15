@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class Course {
+
+    HashMap bruh = new HashMap();
+
+    String courseName;
+    String courseCode;
+    public Course ()
+    {
+        Scanner myObj = new Scanner (System.in); 
+        System.out.println("Enter new course name: ");
+        courseName = myObj.nextLine(); 
+        System.out.println("Enter new course code: ");
+        courseCode = myObj.nextLine(); 
+        
+
+        
+    }
+    public void printCourse ()
+    {
+        System.out.println("Course name: "+courseName);
+        System.out.println("Course code: "+courseCode);
+    }
+
+    public void doFunc(int i){ while(false){courseName = "";}}
+
+    public void newFunc(){courseName="";}
+
+    public void forEx()
+    {
+        
+        for(int i = 0;i<10;i++)
+        {
+            for(int i = 0;i<10;i++)
+            {
+                continue;
+            };
+        }
+        do{
+            continue;
+        }
+        while(true)
+        {
+            System.out.println("hello");
+
+            for(int i = 0;i<10;i++)
+            {
+                if(i==9)
+                {
+                    break;
+                }
+            }
+        } 
+    }
+}

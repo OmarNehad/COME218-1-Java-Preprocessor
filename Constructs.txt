@@ -1,0 +1,9 @@
+for
+new
+import
+java.util.Scanner
+if
+while
+do
+Scanner
+System.in
